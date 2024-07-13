@@ -1,7 +1,8 @@
+# this is a sample code from MIT OCW 18.00
+# using iterative binary search
+# bisection method: fixed for all real +ve x
 
-# bisection method
-
-x = float(input("Enter a positive number: "))
+x = float(input("Enter any positive real number (>= 0): "))
 maxx = max(x, 1.0)
 
 epsilon = 0.001 # set as per need

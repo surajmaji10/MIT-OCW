@@ -1,9 +1,13 @@
+# this is a sample code from MIT OCW 18.00
+
+## TC => BigOh (n * n)
+
 ## bubble sort algo
 def cmp(x, y):
     return x < y
 
 
-def bubble_sort(ls, cmp=lambda x,y: x<=y):
+def bubble_sort(ls, cmp=lambda x,y: x>y):
     i = 0
     n = len(ls)
     swapped = False
@@ -20,5 +24,6 @@ def bubble_sort(ls, cmp=lambda x,y: x<=y):
 
 
 ls = [1, 10, 2, 9, 3, 7, 4, 6, 5, 8]
+print(bubble_sort(ls))
 print(bubble_sort(ls, cmp))
 

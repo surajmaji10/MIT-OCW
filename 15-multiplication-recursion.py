@@ -1,3 +1,4 @@
+# this is a sample code from MIT OCW 18.00
 # a recursive program
 
 m = int(input("Enter num1: "))

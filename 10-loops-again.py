@@ -1,15 +1,23 @@
-# python loops demo
+# print a simple X-mas tree
+height = int(input('Enter height of X-mas tree: '))
 
-for i in range(10, 0-1, -1):
-    print("i = ", end="")
-    print(i)
+spaces = height-1
+stars = 1
+stump = height-1
 
+while height > 0:
 
-for i in range(0, 10):
-    for j in range(0, 10):
-        print((i,j), end= ", ")
-        break
-
+    for sp in range(spaces):
+        print(" ", end="")
+    for st in range(stars):
+        print("#", end="")
     print()
 
+    spaces -= 1
+    stars += 2
 
+    height -= 1
+
+for st in range(stump):
+    print(" ", end="")
+print("#")

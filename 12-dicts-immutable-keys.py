@@ -1,3 +1,5 @@
+# this is a sample code from MIT OCW 18.00
+
 # keys must be immutable (can't be lists or can't contain lists)
 ls = [2, 3, 5, 7]
 tup = (2.0, True, 2, 'b', "GOOD", ((2, 3), 2))

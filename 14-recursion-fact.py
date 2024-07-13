@@ -1,3 +1,5 @@
+# this is a sample code from MIT OCW 18.00
+
 ## factorial(n) = n * (n-1) * (n-2) * ... * 3 * 2 * 1 = n!
 def fact(n):
     if n == 0:

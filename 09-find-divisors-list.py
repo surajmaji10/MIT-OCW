@@ -1,6 +1,6 @@
-########################
-## Prohram to find the set of all divisors of a number n
-########################
+# this is a sample code from MIT OCW 18.00
+## Program to find the set of all divisors of a number n
+# lists are mutable
 
 num = int(input("Enter a number: "))
 divisors = []

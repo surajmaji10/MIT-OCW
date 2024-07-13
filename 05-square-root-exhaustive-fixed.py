@@ -1,5 +1,6 @@
-
+# this is a sample code from MIT OCW 18.00
 # using exhaustive linear search
+# this works for any x >= 0 (including b/w 0 and 1 unlike before)
 
 x = float(input("Enter a integer number: "))
 maxx = max(x, 1.0)
@@ -16,5 +17,5 @@ while abs(ans*ans - x) >= epsilon and ans <= maxx:
 if abs(ans*ans - x) < epsilon:
     print(ans, "is the approx sq. root of", x, ". Found in", steps, "steps.")
 else:
-    print("Not Found.", steps, "steps")
+    print("Not Found.", steps, "steps,", "when ans=", ans)
 

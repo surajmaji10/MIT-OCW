@@ -1,4 +1,4 @@
-# program to check even or odd
+# demo program to check even or odd
 
 n = 12
 

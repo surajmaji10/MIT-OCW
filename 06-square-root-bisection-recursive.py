@@ -1,4 +1,5 @@
-
+# this is a sample code from MIT OCW 18.00
+# using recursive binary search
 # bisection method (recursive)
 
 def withinEpsilon(x, y, e):
@@ -21,9 +22,11 @@ def rec_bisection_sqroot(x, epsilon, low, high):
 
 
 # begin here
-x = float(input("Enter a positive number: "))
+x = float(input("Enter any positive real number(>=0): "))
 maxx = max(x, 1.0)
+
 epsilon = 0.001
+
 low = 0
 high = maxx #updated high as maxx not x
 

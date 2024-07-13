@@ -1,3 +1,5 @@
+# this is a sample code from MIT OCW 18.00
+
 ## check list|tuple|string arr is sorted or not
 def check_sorted(arr):
     """

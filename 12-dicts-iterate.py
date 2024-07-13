@@ -1,3 +1,4 @@
+# this is a sample code from MIT OCW 18.00
 
 # iterating over key value pairs
 mydict = {

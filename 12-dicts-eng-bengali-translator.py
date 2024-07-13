@@ -1,4 +1,5 @@
 ## A simple English ---> Bengali translator
+# this is a sample code from MIT OCW 18.00
 
 subjects = {
     "I": "Ami",

@@ -1,4 +1,5 @@
 # program to show lists and tuples
+# this is a sample code from MIT OCW 18.00
 
 techs = ["TIT", "LNCT", "OIST", "BIST", "SIRT", "JNCT"]
 univs = ["RGPV", "SSGITS", "GCE", "BU", "IISER"]

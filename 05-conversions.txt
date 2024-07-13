@@ -1,0 +1,26 @@
+(base) akash@hp:~/Desktop/MIT-OCW$ python
+Python 3.11.7 (main, Dec 15 2023, 18:12:31) [GCC 11.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> int(2.1)
+2
+>>> int(2)
+2
+>>> int("2")
+2
+>>> int("2.9")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: '2.9'
+>>> 
+
+>>> float(2.9)
+2.9
+>>> float("2.9")
+2.9
+>>> float("8")
+8.0
+>>> float(8)
+8.0
+>>> float("-199.0")
+-199.0
+>>> 

@@ -1,4 +1,7 @@
-# fibbonacci series => Rabbit Breeding Model by Leonardo of Pisa (Fibbonacci) of Italy in 12th century
+# this is a sample code from MIT OCW 18.00
+
+# fibbonacci series =>
+#  Rabbit Breeding Model by Leonardo of Pisa (Fibbonacci) of Italy in 12th century
 # don't go beyond 40 for n
 def fibbonacci(n):
     if n == 0 or n == 1:

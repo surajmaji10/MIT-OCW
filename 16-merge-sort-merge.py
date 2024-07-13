@@ -1,4 +1,7 @@
-# merge sort => n.logn time
+# this is a sample code from MIT OCW 18.00
+
+# TC => BigOh (n*logn)
+## merge sort by John von Neumann
 
 def merge(xs, ys, cmp=lambda x, y: x <= y):
     i = 0

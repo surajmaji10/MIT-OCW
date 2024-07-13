@@ -1,0 +1,19 @@
+>>> a = '2'
+>>> b = a + 5
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can only concatenate str (not "int") to str
+>>> def foo():
+...     a = 2
+...     b = a + '5'
+...     return b
+... 
+>>> 
+>>> foo()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 3, in foo
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+>>> 
+
+TypeError: a runtime error 

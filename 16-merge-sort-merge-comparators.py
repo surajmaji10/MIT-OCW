@@ -1,3 +1,8 @@
+# this is a sample code from MIT OCW 18.00
+
+# TC => BigOh (n*logn)
+## merge sort by John von Neumann
+
 # merge sort and merge algorithm (recursive DnC)
 def merge(xs, ys, cmp=lambda x, y: x <= y):
     i = 0

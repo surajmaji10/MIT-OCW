@@ -1,3 +1,5 @@
+# this is a sample code from MIT OCW 18.00
+
 # a iterative program
 
 m = int(input("Enter num1: "))

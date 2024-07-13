@@ -1,3 +1,4 @@
+# this is a sample code from MIT OCW 18.00
 
 # Find a power n (a^n in python without using **)
 def exponentiate(a, n):
@@ -17,6 +18,7 @@ def exponentiate(a, n):
 
 base = int(input("Enter base(a): "))
 power = int(input("Enter power(n): "))
+
 ans = exponentiate(base, power)
 print("Slow {}^{}={}".format(base, power, ans))
 
@@ -42,7 +44,6 @@ def fast_expo(a, n):
 
 base = int(input("Enter base(a): "))
 power = int(input("Enter power(n): "))
+
 ans = fast_expo(base, power)
 print("Fast {}^{}={}".format(base, power, ans))
-
-

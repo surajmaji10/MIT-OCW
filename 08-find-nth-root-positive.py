@@ -1,6 +1,8 @@
 #######################################
 ##  find the nth root of a number x  ##
 #######################################
+# this is a sample code from MIT OCW 18.00
+# find nth root any x >= 0
 
 x = float(input("Enter a number x to find root of: "))
 n = int(input("Enter the power n for nth root: "))
