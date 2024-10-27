@@ -13,13 +13,26 @@ def binary_search(L, e):
             end = mid - 1
     return -1
 
-# L = [random.randint(0, 1000) for i in range(1000000)]
-# L.sort()
-# e = random.choice(L)
-#
-# idx = binary_search(L, e)
-# print(L)
-# print(idx, L[idx])
+def binary_search2(L, e):
+    def help(L, e, start, end):
+        if start > end:
+            return -1
+        mid = (start + end)//2
+        if L[mid] == e:
+            return mid
+        elif L[mid] < e:
+            return help(L, e, mid+1, end)
+        else:
+            return help(L, e, start, mid-1)
+    return help(L, e, 0, len(L)-1)
+
+L = [random.randint(0, 1000) for i in range(1000)]
+L.sort()
+e = random.choice(L)
+
+idx = binary_search2(L, e)
+print(L)
+print(idx, L[idx])
 
 
 def int_to_str(i):
